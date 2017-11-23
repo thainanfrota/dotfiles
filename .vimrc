@@ -182,6 +182,9 @@ endif
 " vim-scala
 Plug 'derekwyatt/vim-scala'
 
+" my personal plugins
+Plug 'terryma/vim-multiple-cursors'
+
 
 "*****************************************************************************
 "*****************************************************************************
