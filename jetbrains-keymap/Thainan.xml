@@ -1,4 +1,7 @@
 <keymap version="1" name="Thainan" parent="Eclipse (Mac OS X)">
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
   </action>
