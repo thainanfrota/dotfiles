@@ -1,6 +1,16 @@
 <keymap version="1" name="Thainan" parent="Eclipse (Mac OS X)">
+  <action id="ActivateMessagesToolWindow" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift meta minus" />
+  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift meta equals" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="meta 0" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
