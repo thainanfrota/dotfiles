@@ -24,4 +24,10 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
+  <action id="context.load">
+    <keyboard-shortcut first-keystroke="shift alt o" />
+  </action>
+  <action id="context.save">
+    <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
 </keymap>
