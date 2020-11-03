@@ -51,7 +51,7 @@ ZSH_THEME="thainan"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ssh-agent autoupdate zsh-autosuggestions zsh-completions)
+plugins=(git ssh-agent autoupdate zsh-autosuggestions zsh-completions kubectl bgnotify)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,3 +83,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export PATH=/Users/bi001156/.iac/bin:$PATH
+
+alias tunel-ca-gw='ssh -i ~/dev/PRD-CA-API-GATEWAY.pem ec2-user@10.110.4.101 -L 8443:internal-CA-API-GATEWAY-EXTERNO-ADM-1107042440.sa-east-1.elb.amazonaws.com:7443'
+alias tunel-ca-gw-interno='ssh -i ~/dev/PRD-CA-API-GATEWAY-INTERNO.pem ec2-user@10.111.107.75 -L 9443:internal-CA-API-GATEWAY-INTERNO-ADM-1233470409.sa-east-1.elb.amazonaws.com:7443'
